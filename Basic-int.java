@@ -48,3 +48,24 @@ public class Main {
 //             15
 //             250
 ----------------------------------------------------------------------------------------------
+package com.apnacollege;
+
+public class Main {
+    public static void main(String[] args) {
+        //variables
+        int a = 25;
+        int b = 10;
+        int sum = a + b;
+        int diff = a - b;
+        int mul = a * b;
+        int div = a / b;
+        System.out.println(sum);
+        System.out.println(diff);
+        System.out.println(mul);
+        System.out.print(div);
+    }
+}
+// output ---> 35
+//             15
+//             250
+//             2
