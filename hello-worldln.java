@@ -27,3 +27,14 @@ public class Main {
         }
      }
 // \n is a special character sequence known as the "newline" or "line feed."
+
+package com.apnacollege;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.print("Hello World!!\nHello Linux!!\nHello Docker!!");
+        }
+     }
+// output ---> Hello World!!
+//             Hello Linux!!
+//             Hello Docker!!
