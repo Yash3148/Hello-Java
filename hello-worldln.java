@@ -7,6 +7,17 @@ public class Main {
 // output ---> Hello World!!
 //             Hello Linux!!
 
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World!!");
+        System.out.println("Hello Linux!!");
+        }
+     }
+// output ---> Hello World!!
+//             Hello Linux!!
+//
+//println breaks line too. Similar to \n.
+
 package com.apnacollege;
 
 public class Main {
