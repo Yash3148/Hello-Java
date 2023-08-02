@@ -44,3 +44,32 @@ public class Main {
 //             Circumference of the circle: 31.41592653589793
 //             Area of the circle: 78.53981633974483
 ------------------------------------------------------------------------------------------------
+Ques3. 1 ---> Hello
+       2 ---> Nameste
+       3 ---> Bonjour
+Answer:-
+import java.util.*;
+
+public class custom {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number:");
+
+        int button = sc.nextInt();
+
+        if(button==1){
+            System.out.println("Hello");
+        } else if (button==2) {
+            System.out.println("Nameste");
+        } else if (button==3) {
+            System.out.println("Bonjour");
+        }else {
+            System.out.println("Invalid");
+        }
+    }
+}
+// output ---> Enter the number:2
+//             Nameste
+//             Enter the number:5
+//             Invalid
+//             Area of the circle: 78.53981633974483
