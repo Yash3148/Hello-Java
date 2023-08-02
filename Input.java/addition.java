@@ -10,6 +10,8 @@ public class Main {
         int b = sc.nextInt();
         int sum = a + b;
         System.out.println(sum);
+    }
+}
 
 //   output      
 //    a ---> 8
