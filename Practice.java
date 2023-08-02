@@ -15,3 +15,22 @@ public class MultiplicationTable {
     }
 }
 --------------------------------------------------------------------------------------
+import java.util.*;
+
+public class MultiplicationTable {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("HELLO YS07");
+
+        int prod = sc.nextInt();
+        int dev = sc.nextInt();
+
+        if(prod==dev) {
+            System.out.println("Equal");
+        }else {
+                System.out.println("NOT EQUAL");
+            }
+        }
+    }
+--------------------------------------------------------------------------------------
