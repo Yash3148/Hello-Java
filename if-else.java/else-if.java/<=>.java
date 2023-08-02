@@ -11,8 +11,8 @@ public class MultiplicationTable {
             System.out.print("Equal");
         }else if (a>b) {
                 System.out.print("a is greator than b");
-            }else{
-                System.out.print("b is greator than a");
+       }else{
+            System.out.print("b is greator than a");
             }
         }
     }
