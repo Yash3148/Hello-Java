@@ -73,3 +73,44 @@ public class custom {
 //             Enter the number:5
 //             Invalid
 //             Area of the circle: 78.53981633974483
+------------------------------------------------------------------------------------------------
+Ques4. Print the sum of First n natural numbers.
+// 1+2+3+4+......+n
+Answer:-
+import java.util.Scanner;
+
+public class Loops {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the value of n:");
+
+        int n = sc.nextInt();
+        int sum = 0;
+        for(int i = 1; i<=n; i++) {
+            sum = sum + i;
+        }
+            System.out.println(sum);
+    }
+}
+
+// output ---> Enter the value of n: 6
+//                                   21
+------------------------------------------------------------------------------------------------
+Ques5. Print the table number given by user.
+Answer:-
+import java.util.Scanner;
+
+public class Loops {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the value of n:");
+
+        int n = sc.nextInt();
+
+        for (int i = 1; i < 11; i++) {
+            System.out.println(i * n);
+        }
+    }
+}
+// output ---> Enter the value of n:2
+// it will print table of 2
