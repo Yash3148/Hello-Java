@@ -114,3 +114,39 @@ public class Loops {
 }
 // output ---> Enter the value of n:2
 // it will print table of 2
+------------------------------------------------------------------------------------------------
+Ques6. Print all even numbers till n.
+Ansers:-
+import java.util.Scanner;
+
+public class Loops {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the value of n:");
+
+        int n = sc.nextInt();
+
+        for (int i = 2; i <=n; i+=2) {
+            System.out.println(i);
+        }
+    }
+}
+-------------------------------------------------------------------------------------------------
+Ques7. Print all even numbers till n.
+Ansers:-
+import java.util.Scanner;
+
+public class Loops {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the value of n:");
+
+        int n = sc.nextInt();
+
+        for (int i = 1; i <=n; i+=2) {
+            System.out.println(i);
+        }
+    }
+}
+
+    
