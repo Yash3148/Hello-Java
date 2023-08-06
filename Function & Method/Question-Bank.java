@@ -58,7 +58,7 @@ public class Function {
         int circumference = 2 * Math.PI * radius;
         return circumference;
     }
-    public static void main(String args[]) {
+    public static void main(String [] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number radius: ");
         int radius = sc.nextInt();
@@ -71,3 +71,15 @@ public class Function {
 // Enter the number radius: 5
 // Circumference of a circle: 31.41592653589793
 ------------------------------------------------------------------------------------------------------------------------
+Ques4. Write an infinite loop using do while condition.
+Answer:-
+public class Function {
+    public static void main(String[] args) {
+        do {
+            // Code to be executed in the loop
+            System.out.println("This is an infinite loop!");
+        } while (true);
+    }
+}
+------------------------------------------------------------------------------------------------------------------------
+Ques5. 
