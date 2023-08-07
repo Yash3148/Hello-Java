@@ -115,3 +115,31 @@ public class Arrays {
 //                   6
 // x found at index :2
 ------------------------------------------------------------------------------------------------------------
+import java.util.*;
+
+public class Arrays {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+        String names[] = new String[size];
+
+
+        //input
+        for(int i=0; i<size; i++) {
+            names[i] = sc.next();
+        }
+
+        //output
+        for(int i=0; i<names.length; i++) {
+            System.out.println("name " + (i+1) +" is : " + names[i]);
+        }
+
+    }
+}
+// output ---> 
+// 2
+// 1
+// 2
+// name 1 is : 1
+// name 2 is : 2
+------------------------------------------------------------------------------------------------------------
